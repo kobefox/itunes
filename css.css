@@ -1,0 +1,68 @@
+#res {
+    font-family: "Book Antiqua";
+    font-size: 30px;
+}
+body {
+    color: goldenrod;
+    background-color: lightgray;
+    font-family: "Book Antiqua";
+    text-align: center;
+}
+.selects {
+    height: 34px;
+    color: firebrick;
+    font-family: "Book Antiqua";
+    position: relative;
+    left: 40px;
+}
+#clear {
+    font-family: "Book Antiqua";
+    position: relative;
+    left: 40px;
+}
+#h1 {
+    font-family: "Times New Roman";
+    position: relative;
+    left: 40px;
+    size: 14px;
+}
+#showResults {
+    background-color: goldenrod;
+    margin: auto;
+    font-family: "Book Antiqua";
+    position: relative;
+    left: 40px;
+}
+.details {
+    display: none;
+    font-size: small;
+    background-color: #daa520;
+    border: 2px solid #firebrick;
+}
+
+table, td {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 4px solid #daa520;
+    margin: auto;
+}
+td {
+    padding: 5px;
+}
+
+#displayArea {
+    opacity: 0;
+}
+
+fieldset {
+    border: 2px solid #firebrick;
+}
+#title {
+    color: goldenrod;
+    position: Center;
+    left: 40px;
+}
+#printResults {
+    size: 0px;
+}
